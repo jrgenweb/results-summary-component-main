@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+/*
+
+- Mobile: 375px
+- Desktop: 1440px
+
+*/
+/* Colors*/
+/*Typography*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Hanken Grotesk";
+  font-size: 1.8rem;
+  color: #8896bf;
+  font-weight: 500;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.result-summary {
+  box-shadow: 2px 12px 10px 5px hsl(221, 100%, 96%);
+  border-radius: 25px;
+}
+.result-summary h2,
+.result-summary h3,
+.result-summary h4 {
+  font-size: 2rem;
+}
+.result-summary h2 {
+  color: hsl(241, 100%, 89%);
+}
+.result-summary h3 {
+  color: hsl(224, 30%, 27%);
+}
+.result-summary h4 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.result-summary .result {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  background: linear-gradient(hsl(252, 100%, 67%) 0%, #2e2be9 100%);
+  padding: 4.3rem;
+  border-radius: 25px;
+  row-gap: 3.5rem;
+  text-align: center;
+}
+.result-summary .result .result-score {
+  border-radius: 50%;
+  background-color: red;
+  width: 22rem;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+  background: linear-gradient(0deg, hsla(241, 72%, 46%, 0), hsl(256, 72%, 46%));
+  font-weight: 700;
+}
+.result-summary .result .result-score .total-score {
+  font-size: 7rem;
+  color: hsl(0, 0%, 100%);
+}
+.result-summary .result div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.result-summary .result p.result-title {
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+.result-summary .result p.result-message {
+  font-size: 1.8rem;
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+}
+.result-summary .summary {
+  padding: 4.2rem;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 1.5rem;
+  font-weight: bold;
+}
+.result-summary .summary .summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+  padding: 1.7rem;
+  border-radius: 12.5px;
+}
+.result-summary .summary .summary-item .summary-score {
+  font-size: 1.8rem;
+}
+.result-summary .summary .summary-item .summary-score span {
+  font-weight: 800;
+  color: hsl(224, 30%, 27%);
+}
+.result-summary .summary .summary-reaction {
+  background-color: #fff5f5;
+}
+.result-summary .summary .summary-reaction h4 {
+  color: hsl(0, 100%, 67%);
+}
+.result-summary .summary .summary-reaction h4::before {
+  content: url("../images/icon-reaction.svg");
+  padding-right: 1rem;
+}
+.result-summary .summary .summary-memory {
+  background-color: floralwhite;
+}
+.result-summary .summary .summary-memory h4 {
+  color: hsl(39, 100%, 56%);
+}
+.result-summary .summary .summary-memory h4::before {
+  content: url("../images/icon-memory.svg");
+  padding-right: 1rem;
+}
+.result-summary .summary .summary-verbal {
+  background-color: #f0fffb;
+}
+.result-summary .summary .summary-verbal h4 {
+  color: hsl(166, 100%, 37%);
+}
+.result-summary .summary .summary-verbal h4::before {
+  content: url("../images/icon-verbal.svg");
+  padding-right: 1rem;
+}
+.result-summary .summary .summary-visual {
+  background-color: #e7eafd;
+}
+.result-summary .summary .summary-visual h4 {
+  color: hsl(234, 85%, 45%);
+}
+.result-summary .summary .summary-visual h4::before {
+  content: url("../images/icon-visual.svg");
+  padding-right: 1rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 50px;
+  padding: 1.5rem;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .result-summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 73.6rem;
+  }
+  body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+  }
+  .attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+.attribution {
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
