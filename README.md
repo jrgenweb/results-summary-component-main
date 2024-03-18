@@ -29,6 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/jrgenweb/results-summary-component-main](https://github.com/jrgenweb/results-summary-component-main)
+- Solution URL: [https://github.com/jrgenweb/results-summary-component-main](https://github.com/jrgenweb/results-summary-component-main)
 - Live Site URL: [https://jrgenweb.github.io/results-summary-component-main](https://jrgenweb.github.io/results-summary-component-main)
 
 ## My process
@@ -39,6 +40,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- SCSS
 - Mobile-first workflow
 
 ## Author
